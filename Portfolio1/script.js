@@ -1,4 +1,3 @@
-// Function to fetch skill usage data from GitHub
 async function fetchSkillsData() {
     const username = 'durjoybarua5327'; // GitHub username
     const reposResponse = await fetch(`https://api.github.com/users/${username}/repos?per_page=100`);
